@@ -1,0 +1,13 @@
+[1mdiff --git a/resume.html b/resume.html[m
+[1mindex 4a429a4..09fcdbb 100644[m
+[1m--- a/resume.html[m
+[1m+++ b/resume.html[m
+[36m@@ -12,7 +12,7 @@[m
+     <tr>[m
+         <th>QUALIFICATION</th>[m
+         <th>SCHOOL/COLLEGE</th>[m
+[31m-        <th>YEAR</th>[m
+[32m+[m[32m        <th>PASS OUT YEAR</th>[m
+         <th>PERCENTAGE</th>[m
+         [m
+     </tr>[m
