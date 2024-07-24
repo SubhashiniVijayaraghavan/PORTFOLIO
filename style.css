@@ -10,7 +10,16 @@
 button{
     text-decoration: double;
 }
-li,ol{
-    background-color: yellowgreen;
-
+img{
+    margin: 40px;
+    border: 5px solid black;
+    padding: 5px;
+    
+}
+ul,li{
+    background-color: aqua;
+    list-style-type:lower-roman;
+    width: 40%;
+    height: 100%;
+   
 }
