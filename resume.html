@@ -1,73 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESUME</title>
+    <style>
+        body{
+            background-color:rgb(38, 201, 38);
+        }
+        .flex{
+            display: flex;
+            background-color:red;
+            color: white;
+            padding: 1rem;
+            flex-direction: row-reverse;
+
+
+        }
+
+        .item {
+            font-size: 30px;
+
+        }
+
+        ol {
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+        }
+
+        .li {
+            background-color: transparent ;
+            padding-right: 10px;
+        }
+
+        .li:hover {
+            background-color:yellow;
+        }
+
+        a {
+            text-align: right;
+            text-decoration: none;
+            color: white;
+        }
+
+        p {
+            text-align: justify;
+
+        }
+
+        .new {
+            display: flex;
+            margin-top: 30px;
+        }
+
+        img {
+            padding-right: 40px;
+            display: inline;
+        }
+
+        p {
+            padding-top: 50px;
+            padding-right: 50px;
+            font-size: x-large;
+
+        }
+
+        #education {
+
+            padding-left: 260px;
+        }
+
+        #skills {
+
+            padding-left: 260px;
+        }
+
+        #contact {
+
+            padding-left: 260px;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+
+            border: 1px solid black;
+            padding: 0px;
+            margin-left: 350px;
+
+        }
+
+        tr:hover {
+            background-color: chocolate;
+        }
+
+        th,
+        td {
+            padding: 30px;
+            margin: 10px;
+        }
+
+        .s1 {
+
+            padding-left: 260px;
+        }
+
+        ul {
+            padding-left: 280px;
+        }
+
+        li {
+            padding-left: 10px;
+
+        }
+    </style>
+
 </head>
+
 <body>
-    <a href="SUBHASHINI RESUME 1.pdf" target="_blank">
-        <img src="download.png" alt="dora image"></a>
-   <table border="1px">
-    <tr>
-        <th>QUALIFICATION</th>
-        <th>SCHOOL/COLLEGE</th>
-        <th>PASS OUT YEAR</th>
-        <th>PERCENTAGE</th>
-        
-    </tr>
-    <tr>
-        <form >
-            <td>
-                <label>BE-ECE</label>
+    <nav>
+        <h3> </h3>
+        <div class="flex">
+            <ol>
+                <!-- <li>
+                    <a href="index.html">Home</a>
+                </li> -->
+                <li class="li"><a href="#me">About</a></li>
+                <li class="li"><a href="#education">Education</a></li>
+                <li class="li"><a href="#skills"> Skills</a></li>
+                <li class="li"><a href="SUBHASHINI RESUME 1.pdf"> Resume</a></li>
+                <li class="li"><a href="SUBHASHINI RESUME 1 (2).docx">Download Resume</a> </li>
+                <li class="li"><a href="#contact">Contact</a></li>
+            </ol>
+        </div>
+    </nav>
+    <div class="new">
 
-            </td>
-            <td>
-                <label>SKCET,Coimbatore</label>
-            </td>
-            <td>
-                <label>2022-2026</label>
-            </td>
-            <td>
-                <label>8.67/10</label>
-            </td>
-        </form>
-    </tr>
-    <tr>
-        <form >
-            <td>
-                <label>HSCE</label>
+        <a href="SUBHASHINI RESUME 1.pdf" target="_blank">
+            <img src="download.png" alt="dora image"></a>
+        <h1 name="me">About</h1>
 
-            </td>
-            <td>
-                <label>KRTA GHSS,Thayilpatti</label>
-            </td>
-            <td>
-                <label>2021-2022</label>
-            </td>
-            <td>
-                <label>91.67</label>
-            </td>
-        </form>
-    </tr>
-    <tr>
-        <form >
-            <td>
-                <label>SSCE</label>
+        <p>
+            Myself Subhashini V, currently pursuing my 3rd year in Electronics and Communication Engineering (ECE) at Sri Krishna College of Engineering and Technology.
+            I enjoy coding and have learned languages like C++ and Java.
+            I have basic knowledge of web development and have created small projects.
+            I participate in coding competitions and enjoy solving problems.
+            I have knowledge of Database Management Systems.
+            I love learning new things and keeping up with the latest technology trends.
+        </p>
+    </div>
 
-            </td>
-            <td>
-                <label>KRTA GHSS,Thayilpatti</label>
-            </td>
-            <td>
-                <label>2019-2020</label>
-            </td>
-            <td>
-                <label>92.8</label>
-            </td>
-        </form>
-    </tr>
-   </table>
+
+    <h1 id="education">Education</h1>
+    <div class="new">
+        <table>
+            <tr>
+                <th>QUALIFICATION</th>
+                <th>SCHOOL/COLLEGE</th>
+                <th>PASS OUT YEAR</th>
+                <th>PERCENTAGE</th>
+
+            </tr>
+            <tr>
+                <form>
+                    <td>
+                        <label>BE-ECE</label>
+
+                    </td>
+                    <td>
+                        <label>SKCET,Coimbatore</label>
+                    </td>
+                    <td>
+                        <label>2022-2026</label>
+                    </td>
+                    <td>
+                        <label>8.67/10</label>
+                    </td>
+                </form>
+            </tr>
+            <tr>
+                <form>
+                    <td>
+                        <label>HSCE</label>
+
+                    </td>
+                    <td>
+                        <label>KRTA GHSS,Thayilpatti</label>
+                    </td>
+                    <td>
+                        <label>2021-2022</label>
+                    </td>
+                    <td>
+                        <label>91.67</label>
+                    </td>
+                </form>
+            </tr>
+            <tr>
+                <form>
+                    <td>
+                        <label>SSCE</label>
+
+                    </td>
+                    <td>
+                        <label>KRTA GHSS,Thayilpatti</label>
+                    </td>
+                    <td>
+                        <label>2019-2020</label>
+                    </td>
+                    <td>
+                        <label>92.8</label>
+                    </td>
+                </form>
+            </tr>
+        </table>
+    </div>
+
+    <h1 id="skills">Skills</h1>
+    <h2 class="s1">Programming Languages</h2>
+    <ul>
+        <li>C++</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+    </ul>
+    <h2 class="s1">Data Structure and Algorithm</h2>
+    <ul style="list-style-type: none;">
+        <li>Language: C++</li>
+    </ul>
+    <h2 class="s1">Query Language</h2>
+
+    <ul style="list-style-type: none;">
+        <li>DBMS</li>
+    </ul>
+    <h2 class="s1">Front End Development</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+
+    </ul>
+    <h2 class="s1">Additional Tools</h2>
+
+    <ul>
+        <li>GIT</li>
+        <li>GitHub</li>
+
+    </ul>
+
+
+    <h1 id="contact">Get In Touch</h1>
    
+    <a href="mailto:subashinip130@gmail.com" style="color: black;" class="s1">subashinip130@gmail.com</a>
+
+  
+
 </body>
+
 </html>
