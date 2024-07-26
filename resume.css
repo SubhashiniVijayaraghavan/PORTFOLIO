@@ -1,0 +1,275 @@
+body {
+    background-size: cover;
+
+}
+
+.flex {
+    display: flex;
+    background-color:blue;
+    color: white;
+    padding: 1rem;
+    flex-direction: row-reverse;
+
+
+}
+
+.item {
+    font-size: 30px;
+
+}
+
+ol {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.li {
+    background-color: transparent;
+    padding-right: 10px;
+}
+
+.li:hover {
+    background-color:brown;
+}
+
+a {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    text-align: justify;
+
+}
+
+.new {
+    display: flex;
+    margin-top: 30px;
+}
+
+img {
+
+    display: inline;
+    border: 0px solid white;
+
+    border-radius: 100px;
+
+}
+
+p {
+    padding-top: 1px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: x-large;
+
+}
+
+#me {
+    padding-left: 260px;
+    text-decoration: underline;
+
+}
+
+#education {
+
+    padding-left: 260px;
+    text-decoration: underline;
+}
+
+
+
+#skills {
+
+    padding-left: 260px;
+    text-decoration: underline;
+}
+
+#contact {
+
+    padding-left: 260px;
+    text-decoration: underline;
+}
+
+table,
+tr,
+th,
+td {
+
+    border: 2px solid black;
+    padding: 0px;
+    margin-left: 350px;
+
+}
+
+tr:hover {
+    background-color: chocolate;
+}
+
+th,
+td {
+    padding: 30px;
+    margin: 10px;
+}
+
+.s1 {
+
+    padding-left: 260px;
+}
+
+ul {
+    padding-left: 280px;
+
+
+}
+
+li {
+    padding-left: 10px;
+
+
+}
+
+
+
+@media (min-width:480px) {
+
+            
+        body{
+            background-color:rgb(38, 201, 38);
+            padding-left: 70px;
+            padding-right: 70px; 
+ margin: 20px;
+}
+
+.flex {
+    display: flex;
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    flex-direction: row-reverse;
+
+
+}
+
+.item {
+    font-size: 30px;
+
+}
+
+ol {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.li {
+    background-color: transparent;
+    padding-right: 10px;
+}
+
+.li:hover {
+    background-color: yellow;
+}
+
+a {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    text-align: justify;
+
+}
+
+.new {
+    display: flex;
+    margin-top: 30px;
+}
+
+img {
+
+    display: inline;
+    border: 0px solid white;
+
+    border-radius: 100px;
+
+}
+
+p {
+    padding-top: 1px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: x-large;
+
+}
+
+#me {
+    padding-left: 260px;
+    text-decoration: underline;
+
+}
+
+#education {
+
+    padding-left: 260px;
+    text-decoration: underline;
+}
+
+
+
+#skills {
+
+    padding-left: 260px;
+    text-decoration: underline;
+}
+
+#contact {
+
+    padding-left: 260px;
+    text-decoration: underline;
+}
+
+table,
+tr,
+th,
+td {
+
+    border: 2px solid black;
+    padding: 0px;
+    margin-left: 350px;
+
+}
+
+tr:hover {
+    background-color: chocolate;
+}
+
+th,
+td {
+    padding: 30px;
+    margin: 10px;
+}
+
+.s1 {
+
+    padding-left: 260px;
+}
+
+ul {
+    padding-left: 280px;
+
+
+}
+
+li {
+    padding-left: 10px;
+
+
+}
+
+}
+
