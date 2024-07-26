@@ -1,11 +1,11 @@
 body {
-    background-size: cover;
+    background-color: aquamarine;
 
 }
 
 .flex {
     display: flex;
-    background-color: blue;
+    background-color:red;
     color: white;
     padding: 1rem;
     flex-direction: row-reverse;
@@ -31,7 +31,7 @@ ol {
 }
 
 .li:hover {
-    background-color: brown;
+    background-color:yellowgreen;
 }
 
 a {
@@ -105,7 +105,7 @@ td {
 }
 
 tr:hover {
-    background-color: chocolate;
+    background-color: greenyellow;
 }
 
 th,
